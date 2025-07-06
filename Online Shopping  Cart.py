@@ -32,7 +32,6 @@ class ShoppingCart:
                     print(f"ID: {product_id}, Name: {name}, Price: ₹{price:.2f}, Stock: {quantity}")
 
     def add_to_cart(self):
-        #print(self.catalog)
         product_id = input("Enter product ID to add to cart: ")
         try:
             quantity = int(input("Enter quantity to add: "))
